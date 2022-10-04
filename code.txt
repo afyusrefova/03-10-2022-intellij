@@ -1,0 +1,69 @@
+public class Lizard {
+    String name;
+    int age;
+    String kind;
+    String sex;
+
+    String color;
+
+
+    
+
+    public Lizard(){
+        this.age=1;
+        this.kind="Chameleon";
+        this.sex="Female";
+        this.color = "Green";
+        this.name = "Krasi(Krastavica)";
+
+    }
+
+    public Lizard(String name, int age, String kind, String sex, String color) {
+        this.age = age;
+        this.kind = kind;
+        this.sex = sex;
+        this.color = color;
+        this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setKind(String kind) {
+        this.kind = kind;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getKind() {
+        return kind;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+}
